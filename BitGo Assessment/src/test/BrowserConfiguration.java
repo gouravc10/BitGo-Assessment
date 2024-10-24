@@ -50,7 +50,7 @@ public class BrowserConfiguration {
 	@AfterTest
 	public void close(){
 
-//	  driver.close();
+	  driver.close();
 	}
 	
 }

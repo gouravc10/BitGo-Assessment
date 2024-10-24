@@ -13,7 +13,7 @@ import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import test.UserCreationTest;
+import test.BitGOAssessment;
 
 
 

@@ -67,9 +67,8 @@ public class BlocksPage {
 		for(int i =1; i<26; i++) {
 		int size = driver.findElements(By.xpath("//*[@id='transaction-box']["+i+"]/div[2]/div[1]/div")).size();
 		int size2 = driver.findElements(By.xpath("//*[@id='transaction-box']["+i+"]/div[2]/div[3]/div")).size();
-		String hash = driver.findElement(By.xpath("//*[@id='transaction-box']["+i+"]/div[2]/div[3]/div")).getText();
-		System.out.println(size);
-		System.out.println(size2);
+		String hash = driver.findElement(By.xpath("//*[@id='transaction-box']["+i+"]/div[1]/div[1]/a")).getText();
+	
 		
 		if(size==1 && size2==2) {
 			System.out.println(size);
